@@ -1,6 +1,8 @@
 import 'oop.dart';
 
 void main() {
+  // var myobj=father();
+
   var obj = Example();
   obj.myFunction();
   obj.myfunctionTwo();
@@ -10,8 +12,9 @@ void main() {
   sonobj.mehodetwo();
   print(sonobj.name);
 }
+// abstract use korla oi class ka dericly use kora ji na inherathen use kora use korta hoy
 
-class father {
+abstract class father {
   int age = 50;
   myfather() {
     print("My father age is = $age");
